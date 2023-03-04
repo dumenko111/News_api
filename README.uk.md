@@ -1,3 +1,27 @@
+$ git remote -v
+# View existing remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+$ git remote rename origin destination
+# Change remote name from 'origin' to 'destination'
+
+$ git remote -v
+# Verify remote's new name
+> destination  https://github.com/OWNER/REPOSITORY.git (fetch)
+> destination  https://github.com/OWNER/REPOSITORY.git (push)
+git remote -v
+git remote set-url destination https://github.com/dumenko111/News_api.git 
+
+
+
+
+
+
+
+
+
+
 # Parcel template
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
