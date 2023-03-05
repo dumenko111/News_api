@@ -14,20 +14,15 @@ git remote -v
 git remote set-url destination https://github.com/dumenko111/News_api.git 
 
 
+ "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build --no-minify src/*.html --public-url /News_api/"
 
 
 
 
 
 
-
-
-# Parcel template
-
-Этот проект был создан при помощи Parcel. Для знакомства и настройки
-дополнительных возможностей [обратись к документации](https://parceljs.org/).
-
-## Подготовка нового проекта
 
 1. Убедись что на компьютере установлена LTS-версия Node.js.
    [Скачай и установи](https://nodejs.org/en/) её если необходимо.

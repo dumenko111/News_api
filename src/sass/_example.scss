@@ -9,7 +9,6 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.5;
   color: #2a2a2a;
-  background-color: black;
 }
 
 img {
@@ -37,6 +36,10 @@ img {
 
 .button>.spinner.is-hidden {
   display: none;
+}
+
+.form-control {
+  margin-right: 5px;
 }
 
 /* Article List */
@@ -68,8 +71,4 @@ img {
 .articles a {
   text-decoration: none;
   color: #2a2a2a;
-}
-
-body {
-  background-color: aqua;
 }

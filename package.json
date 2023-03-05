@@ -5,7 +5,7 @@
   "homepage": "https://github.com/dumenko111/News_api.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /News_api/"
+    "build": "parcel build --no-minify src/*.html --public-url /News_api/"
   },
   "repository": {
     "type": "git",
